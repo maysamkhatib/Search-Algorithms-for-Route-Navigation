@@ -214,7 +214,7 @@ def AStar2(graph, heuristic, start, goal):
     return "Path: " + str(getPath1(path, start, goal)) + "\nCost: " + str(path[goal][1])
 
 
-Data = 'C:/Users/HP/Downloads/DB_Cities1.xlsx'
+Data = 'C:/Users/HP/Downloads/DB_Cities.xlsx'
 graphOfCities, heuristicGraph = createGraphs(Data)
 while True:
     # Print the menu and get the choice
